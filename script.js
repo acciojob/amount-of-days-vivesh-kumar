@@ -11,8 +11,8 @@ function daysOfAYear(year){
 let year = prompt("Enter the Year: ");
 result = daysOfAYear(year);
 if (year == true){
-	return 366;
+	console.log(366);
 }
 else{
-	return 365;
+	console.log(365);
 }
